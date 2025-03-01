@@ -1,0 +1,13 @@
+{
+  "name": "bot-traffic",
+  "version": "1.0.0",
+  "description": "A bot that generates traffic to 3 sites using Puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "logs": "node index.js > logs.txt 2>&1"
+  },
+  "dependencies": {
+    "puppeteer": "^21.1.1"
+  }
+}
